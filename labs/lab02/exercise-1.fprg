@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-23 03:14:28 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMzowNjo0MCBQTTsyNzQ5"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMzoxNDoyOCBQTTsxOzI4NjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="amountofMoney" type="Integer" array="False" size=""/>
+            <declare name="TotalBaht" type="Integer" array="False" size=""/>
+            <input variable="amountofMoney"/>
+            <assign variable="TotalBaht" expression="TotalBaht*0.02"/>
+            <output expression="TotalBaht" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

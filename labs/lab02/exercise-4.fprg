@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-4"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-23 03:41:58 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMzozNjoyMyBQTTsyNzUz"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMzo0MTo1OCBQTTsxOzI4NjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Distance" type="Integer" array="False" size=""/>
+            <declare name="PetrolCost" type="Integer" array="False" size=""/>
+            <input variable="Distance"/>
+            <assign variable="PetrolCost" expression="(Distance*(8/100))*2.05"/>
+            <output expression="PetrolCost" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
