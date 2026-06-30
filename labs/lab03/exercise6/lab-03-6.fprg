@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-6"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-30 03:37:08 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0zMDswMzoyMTo0NCBQTTsyNzQ4"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0zMDswMzozNzowOCBQTTsyOzI4NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yardLength" type="Real" array="False" size=""/>
+            <input variable="yardLength"/>
+            <declare name="yardWidth" type="Real" array="False" size=""/>
+            <input variable="yardWidth"/>
+            <declare name="yardArea" type="Real" array="False" size=""/>
+            <assign variable="yardArea" expression="yardLength * yardWidth"/>
+            <declare name="houseLength" type="Real" array="False" size=""/>
+            <input variable="houseLength"/>
+            <declare name="houseWidth" type="Real" array="False" size=""/>
+            <input variable="houseWidth"/>
+            <declare name="houseArea" type="Real" array="False" size=""/>
+            <assign variable="houseArea" expression="houseWidth * houseLength"/>
+            <declare name="wage" type="Real" array="False" size=""/>
+            <assign variable="wage" expression="(yardArea - houseArea)/2"/>
+            <output expression="wage" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
