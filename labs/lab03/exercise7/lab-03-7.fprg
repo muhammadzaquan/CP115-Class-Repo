@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-7"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-06 09:32:43 AM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wNjswOToyNDo1OSBBTTsyNzUy"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wNjswOTozMjo0MyBBTTsyOzI4NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="celsius" type="Integer" array="False" size=""/>
+            <input variable="celsius"/>
+            <declare name="fahrenheit" type="Integer" array="False" size=""/>
+            <assign variable="fahrenheit" expression="(celsius * (9/5)) + 32"/>
+            <output expression="fahrenheit" newline="True"/>
+            <declare name="kelvin" type="Integer" array="False" size=""/>
+            <assign variable="kelvin" expression="celsius + 273.15"/>
+            <output expression="kelvin" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
