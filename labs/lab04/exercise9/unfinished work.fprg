@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="unfinished work"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-13 09:33:35 AM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0xMzswOToyODoxOCBBTTsyNzQ5"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0xMzswOTozMzozNSBBTTsxOzI4NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="gb" type="Integer" array="False" size=""/>
+            <input variable="gb"/>
+            <declare name="charge" type="Integer" array="False" size=""/>
+            <if expression="gb &gt; 20">
+                <then>
+                    <assign variable="charge" expression="10"/>
+                    <declare name="" type="Integer" array="False" size=""/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
